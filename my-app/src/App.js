@@ -7,7 +7,7 @@ const App = () => {
     <Routes>
       <Route path="/" element ={<Home />}/>
       <Route path= "/home" element ={<Home />}/>
-      <Route path="/" element ={<div>
+      <Route path="*" element ={<div>
         <h1> 404 NOT FOUND</h1>
         </div>}/>
     </Routes>
@@ -16,4 +16,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
